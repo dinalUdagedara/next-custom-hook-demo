@@ -99,7 +99,9 @@ function MainComponent() {
                       <span className="font-medium">{user.company.name}</span>
                     </div>
                     <p className="text-sm italic">
-                      "{user.company.catchPhrase}"
+                      <p className="text-sm italic">
+                        &ldquo;{user.company.catchPhrase}&rdquo;
+                      </p>
                     </p>
                     <p className="text-sm text-gray-500">{user.company.bs}</p>
                   </div>
